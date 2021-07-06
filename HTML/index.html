@@ -1,112 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"> <!-- Set de caracteres: garante que todos os caracteres seja renderizados para o usuário -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name = "viewport" content="width=device-width, initial-scale=1.0"/>  <!-- Configuração -->
-    <meta name="description" content="Texto descritivo da página web" />  <!--Informações/ metadados-->
-    <meta name="author" content="Gama Academy" />
-    <title>Página para exercícios HTML | Gama Academy</title>
-    
-    <link rel="stylesheet" type="text/css" href="estilos.css"/>
+    <head>
+        <meta charset="UTF-8">
+        <!-- Set de caracteres: garante que todos os caracteres seja renderizados para o usuário -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Configuração -->
+        <meta name="description" content="Texto descritivo da página web" />
+        <!--Informações/ metadados-->
+        <meta name="author" content="Gama Academy" />
+        <title>Página para exercícios HTML | Gama Academy</title>
 
-    <script type="text/javascript"src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="estilos.css" />
 
-</head>
-<body>
-    <header>
-        <!--Imagem-->
-        <img src="logoGoogle.bmp" alt="Logo do Google" title="Logo do Google"/>
+        <script type="text/javascript" src="script.js"></script>
 
-    </header>
-    <main>
-        <!--Tabelas-->
-        <table>
-            <thead>
-                <tr>
-                    <th>Mês da Atividade</th>
-                    <th>Nome da Atividade</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td colspan="2">Janeiro</td>
-                </tr>
-                <tr>
-                    <td>Fevereiro</td>
-                    <td rowspan="2">Meditação</td>
-                </tr>
-                <tr>
-                    <td>Março</td>
-                </tr>
-            </tbody>
-                <tr>
-                    <td> Total de Atividades</td>
-                    <td>2 Atividades</td>
-                </tr>
-            <tfoot>
+    </head>
+    <body>
+        <header>
+            <!--Imagem-->
+            <img src="logoGoogle.bmp" alt="Logo do Google" title="Logo do Google" />
 
-            </tfoot>
-        </table>
-        <!-- Links -->
-        <a href="https://www.bing.com" title="Site do Bing" target="_blank"/>
-            Teste de Link 
-        </a>
-        
-        <p>
-            Curso de html. Queremos <a href="https://www.google.com" title="Aprender mais pesquisando">aprender Mais!</a>
-        </p>
-        
-        <a href="https://www.google.com.br" title="Site do Google" target="_blank"/>
-            <img src="gotaweb.jpg"/>
-        </a>
-        
-        <!--Tags de título em HTMl-->
-        <h1>Terra</h1>
-        
-        <p>A Ford anunciou <strong>ontem que seu braço de serviços financeiros</strong>, a Ford Credit, encerrará as operações no Brasil e na Argentina, assumindo uma dívida de até US$ 375 milhões (aproximadamente R$ 1,85 bilhão na cotação atual)....</p>
-        
-        <h2>América do Sul</h2>
-        <p>A Ford anunciou <span>ontem que seu braço</span> de serviços financeiros, a Ford Credit, encerrará as operações no Brasil e na Argentina, assumindo uma dívida de até US$ 375 milhões (aproximadamente R$ 1,85 bilhão na cotação atual)....</p>
-        
-        <h3>Brasil</h3>
-        <p>A Ford anunciou ontem que seu braço de serviços financeiros, a Ford Credit, encerrará as operações no Brasil e na Argentina, assumindo uma dívida de até US$ 375 milhões (aproximadamente R$ 1,85 bilhão na cotação atual)....</p>
-        
-        <h4>São Paulo</h4>
-        <p>A Ford anunciou ontem que seu braço de serviços financeiros, a Ford Credit, encerrará as operações no Brasil e na Argentina, assumindo uma dívida de até US$ 375 milhões (aproximadamente R$ 1,85 bilhão na cotação atual)....</p>
-        
-        <h5>Campinas</h5>
-        <p>A Ford anunciou ontem que seu braço de serviços financeiros, a Ford Credit, encerrará as operações no Brasil e na Argentina, assumindo uma dívida de até US$ 375 milhões (aproximadamente R$ 1,85 bilhão na cotação atual)....</p>
-        
-        <h6>Formosa</h6>
-        <p>A Ford anunciou ontem que seu braço de serviços financeiros, a Ford Credit, encerrará as operações no Brasil e na Argentina, assumindo uma dívida de até US$ 375 milhões (aproximadamente R$ 1,85 bilhão na cotação atual)....</p>  
-        
-        <!--Video-->
-        <video width="550" height="560" controls>
-            <source src= "video-exemplo.mp4" type=video/mp4 />
-        </video>
-        <!--Listas-->
-        <h2>Listas!</h2>
-        <ul type="circle"> <!--Lista desordenada-->
-            <li>Item 1</li>
-            <li>Item 2</li>
-        </ul>
-        <!--Lista Ordenada-->
-        <ol start="3", type="A">
-            <li>Item1</li>
-            <li>Item2</li>
-        </ol>
-        <!--Lista de definição-->
-        <dl>
-            <dt>Palavra 1</dt>
-            <dd>Explicação da Palavra 1</dd>
-        </dl>
+        </header>
+        <main>
+            <section>
+                <!--Tabelas-->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Mês da Atividade</th>
+                            <th>Nome da Atividade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2">Janeiro</td>
+                        </tr>
+                        <tr>
+                            <td>Fevereiro</td>
+                            <td rowspan="2">Meditação</td>
+                        </tr>
+                        <tr>
+                            <td>Março</td>
+                        </tr>
+                    </tbody>
+                    <tr>
+                        <td> Total de Atividades</td>
+                        <td>2 Atividades</td>
+                    </tr>
+                    <tfoot>
 
-    </main>
-    <footer>
+                    </tfoot>
+                </table>
+            </section>
 
-    </footer>
-</body>
+            <section>
+                <div class="bloco-post" id="div1">
+                    <!-- Links -->
+                    <a href="https://www.bing.com" title="Site do Bing" target="_blank" />
+                    Teste de Link
+                    </a>
+
+                    <p>
+                        Curso de html. Queremos <a href="https://www.google.com"
+                            title="Aprender mais pesquisando">aprender
+                            Mais!</a>
+                    </p>
+
+                    <a href="https://www.google.com.br" title="Site do Google" target="_blank" />
+                    <img src="gotaweb.jpg" /></a>
+                </div>
+                <div class="bloco-post" id="div2">
+                    <h1>Terra</h1>
+
+                    <p>A Ford anunciou <strong>ontem que seu braço de serviços financeiros</strong>, a Ford Credit,
+                        encerrará as
+                        operações no Brasil e na Argentina, assumindo uma dívida de até US$ 375 milhões (aproximadamente
+                        R$ 1,85
+                        bilhão na cotação atual)....</p>
+                </div>
+                <div class="bloco-post" id="div3">
+                    <h2>América do Sul</h2>
+                    <p>A Ford anunciou <span>ontem que seu braço</span> de serviços financeiros, a Ford Credit,
+                        encerrará as
+                        operações no Brasil e na Argentina, assumindo uma dívida de até US$ 375 milhões (aproximadamente
+                        R$ 1,85
+                        bilhão na cotação atual)....</p>
+                </div>
+            </section>
+
+            <!--Tags de título em HTMl-->
+
+
+
+
+            <h3>Brasil</h3>
+            <p>A Ford anunciou ontem que seu braço de serviços financeiros, a Ford Credit, encerrará as operações no
+                Brasil e na Argentina, assumindo uma dívida de até US$ 375 milhões (aproximadamente R$ 1,85 bilhão na
+                cotação atual)....</p>
+
+            <h4>São Paulo</h4>
+            <p>A Ford anunciou ontem que seu braço de serviços financeiros, a Ford Credit, encerrará as operações no
+                Brasil e na Argentina, assumindo uma dívida de até US$ 375 milhões (aproximadamente R$ 1,85 bilhão na
+                cotação atual)....</p>
+
+            <h5>Campinas</h5>
+            <p>A Ford anunciou ontem que seu braço de serviços financeiros, a Ford Credit, encerrará as operações no
+                Brasil e na Argentina, assumindo uma dívida de até US$ 375 milhões (aproximadamente R$ 1,85 bilhão na
+                cotação atual)....</p>
+
+            <h6>Formosa</h6>
+            <p>A Ford anunciou ontem que seu braço de serviços financeiros, a Ford Credit, encerrará as operações no
+                Brasil e na Argentina, assumindo uma dívida de até US$ 375 milhões (aproximadamente R$ 1,85 bilhão na
+                cotação atual)....</p>
+
+            <!--Video-->
+            <video width="550" height="560" controls>
+                <source src="video-exemplo.mp4" type=video/mp4 />
+            </video>
+            <!--Listas-->
+            <h2>Listas!</h2>
+            <ul type="circle">
+                <!--Lista desordenada-->
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+            <!--Lista Ordenada-->
+            <ol start="3" , type="A">
+                <li>Item1</li>
+                <li>Item2</li>
+            </ol>
+            <!--Lista de definição-->
+            <dl>
+                <dt>Palavra 1</dt>
+                <dd>Explicação da Palavra 1</dd>
+            </dl>
+
+        </main>
+        <footer>
+
+        </footer>
+    </body>
 
 
 
