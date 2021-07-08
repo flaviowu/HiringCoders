@@ -34,6 +34,7 @@ const numerosOrdemDecrescente = numeros.sort((a,b)=> b-a)
 console.log(numerosOrdemDecrescente)
 
 // reduce - reduz nosso array a um resultado de uma operação matemática
+// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 const numbers = [1, 34, 35]
 const soma = numbers.reduce((valorAnterior, valorAtual) => {
     return valorAnterior + valorAtual
