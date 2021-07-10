@@ -1,5 +1,5 @@
 "use strict";
-// Em TS é necessário tipar, para evitar uma série de erros ao codar
+// index.ts transpilado
 function somar(n1, n2) {
     return n1 + n2;
 }

@@ -1,4 +1,8 @@
-// Em TS é necessário tipar, para evitar uma série de erros ao codar
+// TS é um JS com coleira.
+// Será necessário usar o comando 
+// $ tsc -- init
+// para transpilar:
+// $ tsc
 function somar(n1: number, n2: number){
     return n1+n2
 }
