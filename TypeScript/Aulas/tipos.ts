@@ -101,3 +101,30 @@ function chamarVingadores(funcionarios: Funcionario[]) {
         console.log(funcionario.nome)
     }
 }
+
+// let altura = 1.6;
+// altura = null;  // TS não deixa atribuir null a uma variável já atribuída
+
+let altura: number | null = 1.6;
+altura = null
+
+type Contato = {
+    nome: string;
+    telefone1: string;
+    telefone2?: string;  // ? - campo opcional 
+}
+
+const contato: Contato = {
+    nome: "Tony",
+    telefone1: "12354679710"
+}
+
+// Type Assertion
+const minhaIdade: any = 29;
+(minhaIdade as number).toString();
+
+const input = document.getElementById("numero1") as HTMLInputElement;  // assegura o tipo através de um processo de casting
+console.log(input.value);
+
+const input2 = <HTMLInputElement>document.getElementById("numero1")
+console.log(input2.value)
